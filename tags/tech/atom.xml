@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja">
+    <title>Kush&#x27;s Home - Tech</title>
+    <subtitle>ソフトウェアエンジニア。何かを作る人</subtitle>
+    <link href="https://boykush.github.io/tags/tech/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://boykush.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2023-07-10T00:00:00+00:00</updated>
+    <id>https://boykush.github.io/tags/tech/atom.xml</id>
+    <entry xml:lang="ja">
+        <title>ScrapsというWiki用のSSGを作っている話</title>
+        <published>2023-07-10T00:00:00+00:00</published>
+        <updated>2023-07-10T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://boykush.github.io/diaries/creating-scraps/" type="text/html"/>
+        <id>https://boykush.github.io/diaries/creating-scraps/</id>
+        
+        <content type="html">&lt;h1 id=&quot;hazimeni&quot;&gt;はじめに&lt;&#x2F;h1&gt;
+&lt;p&gt;Obsidianを使ってWikiをまとめていたがせっかくならページ公開したいな〜と考えていた。どうやらObsidianでページ公開するには有料プランである必要があるらしい。&lt;&#x2F;p&gt;
+&lt;p&gt;有料プランにするほどのモチベはなかったが、Rust入門中だったのでせっかくならStatic Site Generatorを作っちゃえ。となった。&lt;&#x2F;p&gt;
+&lt;p&gt;GitHub Repositoryは以下&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;boykush&#x2F;scraps&quot;&gt;GitHub&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h1 id=&quot;shi-zhuang&quot;&gt;実装&lt;&#x2F;h1&gt;
+&lt;p&gt;基本機能はSSGとしてMarkdownをHtmlへと変換する機能。Wiki用ということで加えてページ内リンクを簡単に記述できるようになっている。&lt;&#x2F;p&gt;
+&lt;p&gt;実装で用いたメインのライブラリ群は以下&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;anyhow(thiserror)&lt;&#x2F;li&gt;
+&lt;li&gt;clap&lt;&#x2F;li&gt;
+&lt;li&gt;pulldown-cmark&lt;&#x2F;li&gt;
+&lt;li&gt;serde&lt;&#x2F;li&gt;
+&lt;li&gt;tera&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;特にTeraのドキュメントは読み込んだ。同じくTeraを用いているZolaと似たような使い心地になるよう意識した。&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;ci-cd&quot;&gt;CI&#x2F;CD&lt;&#x2F;h1&gt;
+&lt;p&gt;ScrapsのリリースはGitHub Releasesとcrates-ioを用いて管理している。よって cargo install scraps でインストールをできるようにした&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;crates.io&#x2F;crates&#x2F;scraps&quot;&gt;crates.io&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h1 id=&quot;ssgnodepuroisapoto&quot;&gt;SSGのデプロイサポート&lt;&#x2F;h1&gt;
+&lt;p&gt;GitHub Pagesでのデプロイをサポートすべく、GitHub Actionsのカスタムアクションを用意した。&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;boykush&#x2F;scraps-deploy-action&quot;&gt;scraps-deploy-action&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;またカスタムアクションから呼び出すDocker ImageはGitHubリポジトリのPackagesで管理した&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;boykush&#x2F;scraps-image&quot;&gt;scraps-image&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h1 id=&quot;dokiyumento&quot;&gt;ドキュメント&lt;&#x2F;h1&gt;
+&lt;p&gt;ScrapsのドキュメントはScraps自身を用いて作成している。同リポジトリに置いているので機能開発中のデバッグ用もかねている&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;boykush.github.io&#x2F;scraps&#x2F;Getting%20Started.html&quot;&gt;Getting Started - Scraps Doc&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h1 id=&quot;zhong-warini&quot;&gt;終わりに&lt;&#x2F;h1&gt;
+&lt;p&gt;v0.6.1時点で一通りの機能が揃ったので、実際にScrapsを用いてWikiを作り始めている&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;boykush.github.io&#x2F;wiki&#x2F;&quot;&gt;Kush&#x27;s Wiki&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;我ながら良い使い心地なのでWikiも充実させていきつつ、Scrapsの開発も続けていきたい&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="ja">
+        <title>dotfilesをupdateした</title>
+        <published>2023-05-23T00:00:00+00:00</published>
+        <updated>2023-05-23T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://boykush.github.io/diaries/update-dotfiles/" type="text/html"/>
+        <id>https://boykush.github.io/diaries/update-dotfiles/</id>
+        
+        <content type="html">&lt;h1 id=&quot;hazimeni&quot;&gt;はじめに&lt;&#x2F;h1&gt;
+&lt;p&gt;最近dotfilesを整理して開発環境をアップデートしていた。備忘録的にリンク等を残す。&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;cuituiturunozheng-li&quot;&gt;CUI・TUIツールの整理&lt;&#x2F;h1&gt;
+&lt;p&gt;これまで色々なツールを入れてきたが結局使わずにいたツールも多かった。ので頻繁に使っているコマンドだけになるよう整理した。&lt;&#x2F;p&gt;
+&lt;p&gt;愛用しているのは以下のツール群&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;sharkdp&#x2F;bat&quot;&gt;bat&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;ogham&#x2F;exa&quot;&gt;exa&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;junegunn&#x2F;fzf&quot;&gt;fzf&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;extrawurst&#x2F;gitui&quot;&gt;gitui&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;dandavison&#x2F;delta&quot;&gt;git-delta&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;BurntSushi&#x2F;ripgrep&quot;&gt;ripgrep&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;starship&#x2F;starship&quot;&gt;starship&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;ajeetdsouza&#x2F;zoxide&quot;&gt;zoxide&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;有名どころが多いので説明は省略する。fzfの代替とな&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;lotabout&#x2F;skim&quot;&gt;skim&lt;&#x2F;a&gt;はどうなんだろう。また調べてみたい。&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;taminarumarutipurekusawozellijheyi-xing&quot;&gt;ターミナルマルチプレクサをZellijへ移行&lt;&#x2F;h1&gt;
+&lt;p&gt;ターミナルはAlacrittyを使っているが、tmuxから&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;zellij-org&#x2F;zellij&quot;&gt;Zellij&lt;&#x2F;a&gt;へターミナルマルチプレクサの環境を大きく変えた。&lt;&#x2F;p&gt;
+&lt;p&gt;気分転換がてらといった感じで大きな意思はないけれど、前評判通りユーザーフレンドリーなUIのおかげで不自由なく使っている。&lt;&#x2F;p&gt;
+&lt;p&gt;tmuxに比べてショートカットのタイプ数は増えたが、シンプルよりイージーを優先したインターフェースという印象で個人的には好き。&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;neovimnoluahua&quot;&gt;Neovimのlua化&lt;&#x2F;h1&gt;
+&lt;p&gt;長らくさぼって後回しにしていたがついにlua化を行なった。オプション設定は引き継ぎつつプラグインはlua製へと置き換えた。&lt;&#x2F;p&gt;
+&lt;p&gt;最近はIntellijに頼りきっているのもあって、補完系プラグインはまだ入れていないけれど。&lt;&#x2F;p&gt;
+&lt;p&gt;採用したプラグイン一覧は以下&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;wbthomason&#x2F;packer.nvim&quot;&gt;packer.nvim&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;nvim-tree&#x2F;nvim-tree.lua&quot;&gt;nvim-tree&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;nvim-telescope&#x2F;telescope.nvim&quot;&gt;telescope.nvim&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;nvim-lualine&#x2F;lualine.nvim&quot;&gt;lualine.nvim&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;akinsho&#x2F;bufferline.nvim&quot;&gt;bufferline.nvim&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;lewis6991&#x2F;gitsigns.nvim&quot;&gt;gitsigns.nvim&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;windwp&#x2F;nvim-autopairs&quot;&gt;nvim-autopairs&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;luaファイルを役割別に分割しやすくなっていて良い、分け方はこんな感じ。&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2e3440;color:#d8dee9;&quot;&gt;&lt;code&gt;&lt;span&gt;❯ tree
+&lt;&#x2F;span&gt;&lt;span&gt;.
+&lt;&#x2F;span&gt;&lt;span&gt;├── init.lua
+&lt;&#x2F;span&gt;&lt;span&gt;└── lua
+&lt;&#x2F;span&gt;&lt;span&gt;    ├── core-colorscheme.lua
+&lt;&#x2F;span&gt;&lt;span&gt;    ├── core-keymappings.lua
+&lt;&#x2F;span&gt;&lt;span&gt;    ├── core-options.lua
+&lt;&#x2F;span&gt;&lt;span&gt;    ├── core-plugin-manager.lua
+&lt;&#x2F;span&gt;&lt;span&gt;    ├── plugin-bufferline.lua
+&lt;&#x2F;span&gt;&lt;span&gt;    ├── plugin-gitsigns.lua
+&lt;&#x2F;span&gt;&lt;span&gt;    ├── plugin-lualine.lua
+&lt;&#x2F;span&gt;&lt;span&gt;    ├── plugin-nvim-autopairs.lua
+&lt;&#x2F;span&gt;&lt;span&gt;    ├── plugin-nvim-tree.lua
+&lt;&#x2F;span&gt;&lt;span&gt;    └── plugin-telescope.lua
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h1 id=&quot;karasukimuwoyi-lu-nordnibian-geng&quot;&gt;カラースキームを一律Nordに変更&lt;&#x2F;h1&gt;
+&lt;p&gt;これまでMaterial DesingのColorを使っていたが、ターミナルからIDEまで一律で&lt;a href=&quot;https:&#x2F;&#x2F;www.nordtheme.com&#x2F;&quot;&gt;Nord&lt;&#x2F;a&gt;にスキームを変更した。&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;arcticicestudio&quot;&gt;Arctic Ice Studio&lt;&#x2F;a&gt;が出している他のリポジトリも気になる。&lt;&#x2F;p&gt;
+&lt;p&gt;フォントは変わらず&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;source-foundry&#x2F;Hack&quot;&gt;Hack&lt;&#x2F;a&gt;を使っている。&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;owarini&quot;&gt;おわりに&lt;&#x2F;h1&gt;
+&lt;p&gt;他にもdotfilesではないけれども、本ホームページのZola Themesを&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;bennetthardwick&#x2F;simple-dev-blog-zola-starter&quot;&gt;simple-dev-blog&lt;&#x2F;a&gt;から&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;not-matthias&#x2F;apollo&quot;&gt;apollo&lt;&#x2F;a&gt;に変えたりと、身の回りの整理をしていた。&lt;&#x2F;p&gt;
+&lt;p&gt;普段はエンジニアという職種で課題解決を軸に難しいことを考えながらサービスを提供する側だけれど、たまには何も考えずにツールの利用側になるのも大事だなと感じた。&lt;&#x2F;p&gt;
+&lt;p&gt;備忘録として残しておく。&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

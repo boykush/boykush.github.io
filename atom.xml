@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja">
+    <title>Kush&#x27;s Home</title>
+    <subtitle>ソフトウェアエンジニア。何かを作る人</subtitle>
+    <link href="https://boykush.github.io/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://boykush.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-01-13T00:00:00+00:00</updated>
+    <id>https://boykush.github.io/atom.xml</id>
+    <entry xml:lang="ja">
+        <title>2024年の目標</title>
+        <published>2024-01-13T00:00:00+00:00</published>
+        <updated>2024-01-13T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://boykush.github.io/diaries/goals-2024/" type="text/html"/>
+        <id>https://boykush.github.io/diaries/goals-2024/</id>
+        
+        <content type="html">&lt;p&gt;「目標」というタイトルにしたけれど大したものでもない。&lt;&#x2F;p&gt;
+&lt;p&gt;今年は本業の方が忙しくなりそうなので最低限のアウトプットはそちらで十分。日々の業務で挑戦的なことができている。&lt;&#x2F;p&gt;
+&lt;p&gt;インプットとしては本を1ヶ月に1冊読みたい。&lt;&#x2F;p&gt;
+&lt;p&gt;ということで普段使っているGitHub Projectsによるタスク管理にイテレーションを導入してみた。&lt;&#x2F;p&gt;
+&lt;p&gt;設定は以下&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;イテレーションは4 weeks&lt;&#x2F;li&gt;
+&lt;li&gt;In ProgressのWIP制限は2&lt;&#x2F;li&gt;
+&lt;li&gt;Backlog Viewを用意&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;まあ1年分のやりたいことを今から決められるわけないのでね。最低限読書の目標を立てつつ、その他は都度イテレーションで決めていければ良いと思う。&lt;&#x2F;p&gt;
+&lt;p&gt;今年もがんばるぞ〜&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="ja">
+        <title>「正しいものを正しくつくる」を読んだ</title>
+        <published>2023-11-26T00:00:00+00:00</published>
+        <updated>2023-11-26T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://boykush.github.io/diaries/read-develop-the-right-things-right/" type="text/html"/>
+        <id>https://boykush.github.io/diaries/read-develop-the-right-things-right/</id>
+        
+        <content type="html">&lt;img class=&quot;thumbnail&quot; src=https:&amp;#x2F;&amp;#x2F;m.media-amazon.com&amp;#x2F;images&amp;#x2F;I&amp;#x2F;41txD1eZGrL._SY445_SX342_.jpg &#x2F;&gt;
+&lt;h1 id=&quot;hazimeni&quot;&gt;はじめに&lt;&#x2F;h1&gt;
+&lt;p&gt;直近の業務で不確実性の高い大規模なプロジェクトに取り組んでいて参考にした本。&lt;&#x2F;p&gt;
+&lt;p&gt;市谷さんの書籍は「カイゼンジャーニー」に続けて2冊目。&lt;&#x2F;p&gt;
+&lt;p&gt;ユーザーストーリーより下の粒度の日々の馴染み深いスクラムフレームワークのような話題に閉じず、ユーザーストーリーよりさらに上の粒度のビジョン・ミッション・コンセプトや、MVPを探索するための仮説検証プロセス等についても触れられている。&lt;&#x2F;p&gt;
+&lt;p&gt;他にもプロダクト開発全般の話題がまとまっていて、自分はバックエンドエンジニアだが、プロダクトマネージャーやプロダクトオーターといった職能の人にとっては必読書と言えるような内容だと思う。&lt;&#x2F;p&gt;
+&lt;p&gt;以下、読みながら特に思考が深まったメモを残す。&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;biziyonkarasheng-marerumitusiyon&quot;&gt;ビジョンから生まれるミッション&lt;&#x2F;h1&gt;
+&lt;p&gt;プロジェクトという表現は、いつまでにどのくらいのリソースで何ができればヨシ。のように目先の利益が強調され、プロダクト指向が意識されずに進んでいく力学があると感じる。&lt;&#x2F;p&gt;
+&lt;p&gt;それに比べて、プロダクト→ビジョン、プロジェクト→ミッションと置き換えることで、プロダクトチーム以外の人たちにもビジョン（プロダクト）が重要であるということが伝わりやすい。&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;gu-ke-shi-dian-nobiziyonti-gong-zhe-shi-dian-nomu-de&quot;&gt;顧客視点のビジョン・提供者視点の目的&lt;&#x2F;h1&gt;
+&lt;p&gt;仮説検証の章で仮説キャンバスの説明があった。仮説キャンバスは大きく顧客視点の項目群と提供者視点の項目群が2つに分かれて並び、それぞれにビジョン・目的が置かれるという話。&lt;&#x2F;p&gt;
+&lt;p&gt;顧客視点のビジョンがどれだけ理想的でも、提供者視点としてビジネスを成り立たせる目的が別で必要。といったような使い方をするイメージで理解した。&lt;&#x2F;p&gt;
+&lt;p&gt;プロダクトチームとビジネスチーム間のコミュニケーションをする場所として、仮説キャンバスを活用できるとよいのだろう。&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;matome&quot;&gt;まとめ&lt;&#x2F;h1&gt;
+&lt;p&gt;正直後半の仮説検証型アジャイル開発は理解が難しかった。自分は普段コードを書いている時間のほうが長いのでそりゃそう。&lt;&#x2F;p&gt;
+&lt;p&gt;ただ前半最後のプロダクトオーナーと開発チーム間の越境、に関しては日々の業務と馴染み深いものとして理解をすることができた。&lt;&#x2F;p&gt;
+&lt;p&gt;プロダクトオーナーに近い業務をしながらも技術的な知識を活用し意思決定に携わるようなプロダクトオーナー代行という役割についての説明があったが、自分が目指す役割に近いかもしれない。&lt;&#x2F;p&gt;
+&lt;p&gt;同じく市谷さん著の「組織を芯からアジャイルにする」では組織アジャイルなる分野を扱うらしい。&lt;&#x2F;p&gt;
+&lt;p&gt;越境する視座を高め、徐々に仮説検証型アジャイルや組織アジャイルの理解を深めていきたい。&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="ja">
+        <title>タスク管理をGitHub Projectsに統合した</title>
+        <published>2023-11-19T00:00:00+00:00</published>
+        <updated>2023-11-19T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://boykush.github.io/diaries/integration-task-management/" type="text/html"/>
+        <id>https://boykush.github.io/diaries/integration-task-management/</id>
+        
+        <content type="html">&lt;p&gt;ホームページ・OSSライブラリ等のリポジトリでIssueを運用しつつ、他の読書記録等のタスクも一箇所で扱いたくなったのでGitHub Projectsに統合した。&lt;&#x2F;p&gt;
+&lt;p&gt;GitHub ProjectsはIssueの自動追加やステータス同期等の最小限のワークフローを備えていて便利。&lt;&#x2F;p&gt;
+&lt;p&gt;読書記録はNotionで行っていたものをIssueへと移行した。リポジトリは以下&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;boykush&#x2F;bookshelf&quot;&gt;boykush&#x2F;bookshelf&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;IssueのTODOに各章を列挙しチェックをつけていくことで読書の進捗もわかる。&lt;&#x2F;p&gt;
+&lt;p&gt;読書記録程度だったらNotionのようなデータベースではなく、Issue templateで記録しやすくなっている程度で個人的に十分。&lt;&#x2F;p&gt;
+&lt;p&gt;IssueだったらGitHub Actionsとの接続もできるし、便利なところは使っていきたいですね。&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="ja">
+        <title>Swarmingに関するブログを書いた</title>
+        <published>2023-11-08T00:00:00+00:00</published>
+        <updated>2023-11-08T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://boykush.github.io/diaries/write-blog-about-swarming/" type="text/html"/>
+        <id>https://boykush.github.io/diaries/write-blog-about-swarming/</id>
+        
+        <content type="html">&lt;p&gt;MediumにAgileやScrum文脈で語られるSwarmingについてのブログを投稿した&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;medium.com&#x2F;@boykush&#x2F;best-practices-for-swarming-agile-team-9e2aef20f74e&quot;&gt;“群れる” アジャイルチームのベストプラクティス  | by boykush  | Medium&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Agile周辺は知識と実践の両方が身についてきたのでキャリアとして強みにしていくのもありか？と思いつつ、会社に所属しているときは必要とされる役割を担うだけなのでそこまでこだわりを持てていない。&lt;&#x2F;p&gt;
+&lt;p&gt;今回のブログではSwarmingの良い部分を紹介したけれど、実際にチームでSwarmingを重視する動きをしているとうまくいかないことも多い、ので次関連して外部発信するときはうまくいかない部分も紹介したい。&lt;&#x2F;p&gt;
+&lt;p&gt;あともう一つ悩みがどのプラットフォームでブログを投稿するか。このホームページはハードル低く日記として投稿をしたいので、がっつり文章を書いたブログはMediumに投稿する形で役割を分けてみた。&lt;&#x2F;p&gt;
+&lt;p&gt;まあ目先はどのプラットフォームかは関係なくアウトプット増やすのを重要視したい。&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="ja">
+        <title>ScrapsというWiki用のSSGを作っている話</title>
+        <published>2023-07-10T00:00:00+00:00</published>
+        <updated>2023-07-10T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://boykush.github.io/diaries/creating-scraps/" type="text/html"/>
+        <id>https://boykush.github.io/diaries/creating-scraps/</id>
+        
+        <content type="html">&lt;h1 id=&quot;hazimeni&quot;&gt;はじめに&lt;&#x2F;h1&gt;
+&lt;p&gt;Obsidianを使ってWikiをまとめていたがせっかくならページ公開したいな〜と考えていた。どうやらObsidianでページ公開するには有料プランである必要があるらしい。&lt;&#x2F;p&gt;
+&lt;p&gt;有料プランにするほどのモチベはなかったが、Rust入門中だったのでせっかくならStatic Site Generatorを作っちゃえ。となった。&lt;&#x2F;p&gt;
+&lt;p&gt;GitHub Repositoryは以下&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;boykush&#x2F;scraps&quot;&gt;GitHub&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h1 id=&quot;shi-zhuang&quot;&gt;実装&lt;&#x2F;h1&gt;
+&lt;p&gt;基本機能はSSGとしてMarkdownをHtmlへと変換する機能。Wiki用ということで加えてページ内リンクを簡単に記述できるようになっている。&lt;&#x2F;p&gt;
+&lt;p&gt;実装で用いたメインのライブラリ群は以下&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;anyhow(thiserror)&lt;&#x2F;li&gt;
+&lt;li&gt;clap&lt;&#x2F;li&gt;
+&lt;li&gt;pulldown-cmark&lt;&#x2F;li&gt;
+&lt;li&gt;serde&lt;&#x2F;li&gt;
+&lt;li&gt;tera&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;特にTeraのドキュメントは読み込んだ。同じくTeraを用いているZolaと似たような使い心地になるよう意識した。&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;ci-cd&quot;&gt;CI&#x2F;CD&lt;&#x2F;h1&gt;
+&lt;p&gt;ScrapsのリリースはGitHub Releasesとcrates-ioを用いて管理している。よって cargo install scraps でインストールをできるようにした&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;crates.io&#x2F;crates&#x2F;scraps&quot;&gt;crates.io&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h1 id=&quot;ssgnodepuroisapoto&quot;&gt;SSGのデプロイサポート&lt;&#x2F;h1&gt;
+&lt;p&gt;GitHub Pagesでのデプロイをサポートすべく、GitHub Actionsのカスタムアクションを用意した。&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;boykush&#x2F;scraps-deploy-action&quot;&gt;scraps-deploy-action&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;またカスタムアクションから呼び出すDocker ImageはGitHubリポジトリのPackagesで管理した&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;boykush&#x2F;scraps-image&quot;&gt;scraps-image&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h1 id=&quot;dokiyumento&quot;&gt;ドキュメント&lt;&#x2F;h1&gt;
+&lt;p&gt;ScrapsのドキュメントはScraps自身を用いて作成している。同リポジトリに置いているので機能開発中のデバッグ用もかねている&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;boykush.github.io&#x2F;scraps&#x2F;Getting%20Started.html&quot;&gt;Getting Started - Scraps Doc&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h1 id=&quot;zhong-warini&quot;&gt;終わりに&lt;&#x2F;h1&gt;
+&lt;p&gt;v0.6.1時点で一通りの機能が揃ったので、実際にScrapsを用いてWikiを作り始めている&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;boykush.github.io&#x2F;wiki&#x2F;&quot;&gt;Kush&#x27;s Wiki&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;我ながら良い使い心地なのでWikiも充実させていきつつ、Scrapsの開発も続けていきたい&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="ja">
+        <title>dotfilesをupdateした</title>
+        <published>2023-05-23T00:00:00+00:00</published>
+        <updated>2023-05-23T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://boykush.github.io/diaries/update-dotfiles/" type="text/html"/>
+        <id>https://boykush.github.io/diaries/update-dotfiles/</id>
+        
+        <content type="html">&lt;h1 id=&quot;hazimeni&quot;&gt;はじめに&lt;&#x2F;h1&gt;
+&lt;p&gt;最近dotfilesを整理して開発環境をアップデートしていた。備忘録的にリンク等を残す。&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;cuituiturunozheng-li&quot;&gt;CUI・TUIツールの整理&lt;&#x2F;h1&gt;
+&lt;p&gt;これまで色々なツールを入れてきたが結局使わずにいたツールも多かった。ので頻繁に使っているコマンドだけになるよう整理した。&lt;&#x2F;p&gt;
+&lt;p&gt;愛用しているのは以下のツール群&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;sharkdp&#x2F;bat&quot;&gt;bat&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;ogham&#x2F;exa&quot;&gt;exa&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;junegunn&#x2F;fzf&quot;&gt;fzf&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;extrawurst&#x2F;gitui&quot;&gt;gitui&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;dandavison&#x2F;delta&quot;&gt;git-delta&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;BurntSushi&#x2F;ripgrep&quot;&gt;ripgrep&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;starship&#x2F;starship&quot;&gt;starship&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;ajeetdsouza&#x2F;zoxide&quot;&gt;zoxide&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;有名どころが多いので説明は省略する。fzfの代替とな&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;lotabout&#x2F;skim&quot;&gt;skim&lt;&#x2F;a&gt;はどうなんだろう。また調べてみたい。&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;taminarumarutipurekusawozellijheyi-xing&quot;&gt;ターミナルマルチプレクサをZellijへ移行&lt;&#x2F;h1&gt;
+&lt;p&gt;ターミナルはAlacrittyを使っているが、tmuxから&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;zellij-org&#x2F;zellij&quot;&gt;Zellij&lt;&#x2F;a&gt;へターミナルマルチプレクサの環境を大きく変えた。&lt;&#x2F;p&gt;
+&lt;p&gt;気分転換がてらといった感じで大きな意思はないけれど、前評判通りユーザーフレンドリーなUIのおかげで不自由なく使っている。&lt;&#x2F;p&gt;
+&lt;p&gt;tmuxに比べてショートカットのタイプ数は増えたが、シンプルよりイージーを優先したインターフェースという印象で個人的には好き。&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;neovimnoluahua&quot;&gt;Neovimのlua化&lt;&#x2F;h1&gt;
+&lt;p&gt;長らくさぼって後回しにしていたがついにlua化を行なった。オプション設定は引き継ぎつつプラグインはlua製へと置き換えた。&lt;&#x2F;p&gt;
+&lt;p&gt;最近はIntellijに頼りきっているのもあって、補完系プラグインはまだ入れていないけれど。&lt;&#x2F;p&gt;
+&lt;p&gt;採用したプラグイン一覧は以下&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;wbthomason&#x2F;packer.nvim&quot;&gt;packer.nvim&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;nvim-tree&#x2F;nvim-tree.lua&quot;&gt;nvim-tree&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;nvim-telescope&#x2F;telescope.nvim&quot;&gt;telescope.nvim&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;nvim-lualine&#x2F;lualine.nvim&quot;&gt;lualine.nvim&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;akinsho&#x2F;bufferline.nvim&quot;&gt;bufferline.nvim&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;lewis6991&#x2F;gitsigns.nvim&quot;&gt;gitsigns.nvim&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;windwp&#x2F;nvim-autopairs&quot;&gt;nvim-autopairs&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;luaファイルを役割別に分割しやすくなっていて良い、分け方はこんな感じ。&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2e3440;color:#d8dee9;&quot;&gt;&lt;code&gt;&lt;span&gt;❯ tree
+&lt;&#x2F;span&gt;&lt;span&gt;.
+&lt;&#x2F;span&gt;&lt;span&gt;├── init.lua
+&lt;&#x2F;span&gt;&lt;span&gt;└── lua
+&lt;&#x2F;span&gt;&lt;span&gt;    ├── core-colorscheme.lua
+&lt;&#x2F;span&gt;&lt;span&gt;    ├── core-keymappings.lua
+&lt;&#x2F;span&gt;&lt;span&gt;    ├── core-options.lua
+&lt;&#x2F;span&gt;&lt;span&gt;    ├── core-plugin-manager.lua
+&lt;&#x2F;span&gt;&lt;span&gt;    ├── plugin-bufferline.lua
+&lt;&#x2F;span&gt;&lt;span&gt;    ├── plugin-gitsigns.lua
+&lt;&#x2F;span&gt;&lt;span&gt;    ├── plugin-lualine.lua
+&lt;&#x2F;span&gt;&lt;span&gt;    ├── plugin-nvim-autopairs.lua
+&lt;&#x2F;span&gt;&lt;span&gt;    ├── plugin-nvim-tree.lua
+&lt;&#x2F;span&gt;&lt;span&gt;    └── plugin-telescope.lua
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h1 id=&quot;karasukimuwoyi-lu-nordnibian-geng&quot;&gt;カラースキームを一律Nordに変更&lt;&#x2F;h1&gt;
+&lt;p&gt;これまでMaterial DesingのColorを使っていたが、ターミナルからIDEまで一律で&lt;a href=&quot;https:&#x2F;&#x2F;www.nordtheme.com&#x2F;&quot;&gt;Nord&lt;&#x2F;a&gt;にスキームを変更した。&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;arcticicestudio&quot;&gt;Arctic Ice Studio&lt;&#x2F;a&gt;が出している他のリポジトリも気になる。&lt;&#x2F;p&gt;
+&lt;p&gt;フォントは変わらず&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;source-foundry&#x2F;Hack&quot;&gt;Hack&lt;&#x2F;a&gt;を使っている。&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;owarini&quot;&gt;おわりに&lt;&#x2F;h1&gt;
+&lt;p&gt;他にもdotfilesではないけれども、本ホームページのZola Themesを&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;bennetthardwick&#x2F;simple-dev-blog-zola-starter&quot;&gt;simple-dev-blog&lt;&#x2F;a&gt;から&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;not-matthias&#x2F;apollo&quot;&gt;apollo&lt;&#x2F;a&gt;に変えたりと、身の回りの整理をしていた。&lt;&#x2F;p&gt;
+&lt;p&gt;普段はエンジニアという職種で課題解決を軸に難しいことを考えながらサービスを提供する側だけれど、たまには何も考えずにツールの利用側になるのも大事だなと感じた。&lt;&#x2F;p&gt;
+&lt;p&gt;備忘録として残しておく。&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="ja">
+        <title>自身のキャリアについて考える</title>
+        <published>2023-05-17T00:00:00+00:00</published>
+        <updated>2023-05-17T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://boykush.github.io/diaries/think-own-career/" type="text/html"/>
+        <id>https://boykush.github.io/diaries/think-own-career/</id>
+        
+        <content type="html">&lt;p&gt;社会人4年目に入った。&lt;&#x2F;p&gt;
+&lt;p&gt;1on1をしていて自身のキャリアについて話したがあんまりまとまってなかったので言語化する。&lt;&#x2F;p&gt;
+&lt;p&gt;まず1つイメージできているのはアーキテクトやテックリードのような技術スキルに特化していることを期待される役職を経験し、その後エンジニアリングマネージャー（以下、EM）のような役職に就きたいということ。&lt;&#x2F;p&gt;
+&lt;p&gt;プロダクトにしても組織にしても、インターフェース設計力が重要だよな〜と感じることがよくある。自分の中のインターフェース設計とは&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;意図・目的を明確にする&lt;&#x2F;li&gt;
+&lt;li&gt;責任範囲・権限を明確にする&lt;&#x2F;li&gt;
+&lt;li&gt;具体のインターフェースをシンプルに小さく用意する&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;といったイメージ。まあDDDやマイクロサービスの文脈で語られることの言い換えではあるけども。&lt;&#x2F;p&gt;
+&lt;p&gt;インターフェース設計力を鍛えるためには今のままバックエンドを主軸に経験を積むのが効率が良い気がしていて、アーキテクトやテックリードのような役職を経験できるとよいんだろうなと考えている。&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;そして自身の場合、バックエンドの技術だけではなくてプロダクト開発全般の知識を広く浅く学ぶことが多い。がゆえにEMのような役職もイメージはつきやすい。&lt;&#x2F;p&gt;
+&lt;p&gt;プロダクト開発全般の知識を学ぶモチベーションは日々の業務での職種を越えたコミュニケーションを円滑に進めたい目的がおそらく強い。&lt;&#x2F;p&gt;
+&lt;p&gt;SRE、PdM、QAエンジニア、デザイナーといった職種の人たちがどういったバックグラウンドで発言をしているのか。意図を汲むべく学んでいる。&lt;&#x2F;p&gt;
+&lt;p&gt;のでこれらの知識を生かしてキャリアの中で一度はEMのような役割をできればと思っている。&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;ここまで役職を軸に言語化したが、最近は思考が抽象化されてきてあんまり職種にこだわりを持たなくなっている。&lt;&#x2F;p&gt;
+&lt;p&gt;極論、プロダクト開発は意思決定の繰り返しをするだけ。と思うようになっていて、意思決定の質を高めるために各職種がプロフェッショナルに関わっている。自身はその一員になれればよい。&lt;&#x2F;p&gt;
+&lt;p&gt;となると、意思決定の質とは？プロフェッショナルとは？という思考に移るけども今日はここまで。&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="ja">
+        <title>「OAuth徹底入門 セキュアな認可システムを適用するための原則と実践」を読んだ</title>
+        <published>2023-04-21T00:00:00+00:00</published>
+        <updated>2023-04-21T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://boykush.github.io/diaries/read-oauth2-in-action/" type="text/html"/>
+        <id>https://boykush.github.io/diaries/read-oauth2-in-action/</id>
+        
+        <content type="html">&lt;img class=&quot;thumbnail&quot; src=https:&amp;#x2F;&amp;#x2F;m.media-amazon.com&amp;#x2F;images&amp;#x2F;I&amp;#x2F;51CaA7dryjL._SX218_BO1,204,203,200_QL40_ML2_.jpg &#x2F;&gt;
+&lt;h1 id=&quot;hazimeni&quot;&gt;はじめに&lt;&#x2F;h1&gt;
+&lt;p&gt;業務でOAuthクライアントの運用・保守はしているが、OAuthを基礎から学んだことがなかったので基礎を固めるために読んだ本。&lt;&#x2F;p&gt;
+&lt;p&gt;認可サーバー、クライアント、保護対象リソースサーバー実装のサンプルコードを交えながら丁寧に説明がされていたのでしっかり理解することができた。&lt;&#x2F;p&gt;
+&lt;p&gt;運用経験があったおかげでスムーズに読み進めたが「13章 OAuth2.0を使ったユーザー認証」の内容は自身の解釈として学びが多かったので考えたことをまとめる。&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;oauth2-0haren-zheng-toren-ke-nojian-deyi-cun-xing-ni-zhuan-woxing-uyouren-ke-wochou-xiang-hua-sitashe-ji&quot;&gt;OAuth2.0は認証と認可の間で依存性逆転を行うよう認可を抽象化した設計？&lt;&#x2F;h1&gt;
+&lt;p&gt;上記の問いは理論、運用ともに豊富な人からみると当たり前の解釈かもしれないが、認可が認証に依存をさせない設計を徹底しているのが印象的だった。&lt;&#x2F;p&gt;
+&lt;p&gt;DBリポジトリの抽象に対して実装をDIするように、認可フレームワークとして抽象化されたOAuthでは認証含む実装方法に様々な選択肢を用意している。&lt;&#x2F;p&gt;
+&lt;p&gt;OAuth2.0に限らずアプリケーション設計において認証と認可はコンテキストをはっきりと分けるべき、みたいな話は過去の学び・議論から直感的に理解していたが、OAuth2.0の哲学のようなものに触れることでより良いインターフェースの一例を知ることができた。&lt;&#x2F;p&gt;
+&lt;p&gt;Jsonフィールドレベルのインターフェースだけでなく、リソースに対する認可という形も含めてインターフェースを小さくすることで、よりコンテキスト、依存関係を明確にしたやり取りができる。&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;matome&quot;&gt;まとめ&lt;&#x2F;h1&gt;
+&lt;p&gt;最近はソフトウェア設計に関する学びも飽和してきて「とにかく良いインターフェースに触れること」といったざっくり方針を立てていたが、本書のおかげで方針を実行に移すことができた。&lt;&#x2F;p&gt;
+&lt;p&gt;まあまだ一冊本読んだレベルの知識なので引き続き深掘りしていきたい。&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="ja">
+        <title>「Programming in Haskell 2nd edition」を読んだ</title>
+        <published>2023-04-04T00:00:00+00:00</published>
+        <updated>2023-04-04T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://boykush.github.io/diaries/read-programming-haskell/" type="text/html"/>
+        <id>https://boykush.github.io/diaries/read-programming-haskell/</id>
+        
+        <content type="html">&lt;img class=&quot;thumbnail&quot; src=https:&amp;#x2F;&amp;#x2F;cdn.shopify.com&amp;#x2F;s&amp;#x2F;files&amp;#x2F;1&amp;#x2F;1634&amp;#x2F;7169&amp;#x2F;products&amp;#x2F;cover_530x.png?v=1564720482 &#x2F;&gt;
+&lt;h1 id=&quot;hazimeni&quot;&gt;はじめに&lt;&#x2F;h1&gt;
+&lt;p&gt;1年か2年ほど前に途中まで読んで以来、長いこと積読していたHaskell本を読了したので学びを書く。&lt;&#x2F;p&gt;
+&lt;p&gt;特に15章以降が学びが多かったので14章以前は省略する。&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.lambdanote.com&#x2F;collections&#x2F;haskell&quot;&gt;翻訳版書籍リンク&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;15zhang-chi-yan-ping-jia&quot;&gt;15章 遅延評価&lt;&#x2F;h1&gt;
+&lt;p&gt;Scala構文の &lt;code&gt;lazy val&lt;&#x2F;code&gt;や &lt;code&gt;monix.eval.Task&lt;&#x2F;code&gt;の利用等でどのような挙動とメリットがあるかざっくりは理解していたが、本章では評価戦略の種類から丁寧に比較と説明がされていて理解を深めることができた。&lt;&#x2F;p&gt;
+&lt;p&gt;評価戦略は&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;最内簡約 → 値渡し&lt;&#x2F;li&gt;
+&lt;li&gt;最外簡約 → 名前渡し&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;といった対応になる。&lt;&#x2F;p&gt;
+&lt;p&gt;本章では遅延評価（名前渡し）によって無限リストを生み出す再帰関数の評価を停止させるサンプルコードが紹介されている。&lt;&#x2F;p&gt;
+&lt;p&gt;ここでの学びは「データと制御の分離」という表現を得たこと。&lt;&#x2F;p&gt;
+&lt;p&gt;この表現によって後続の章の内容も理解が進みやすい構成になっていた。&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;16zhang-puroguramunolun-zheng&quot;&gt;16章 プログラムの論証&lt;&#x2F;h1&gt;
+&lt;p&gt;本章では等式推論・数学的帰納法・構造的帰納法の紹介の後、最後にコンパイルの正しさを論証している。&lt;&#x2F;p&gt;
+&lt;p&gt;コンパイルの正しさを論証する前に再帰データ型の基底部と再帰部それぞれを分けて証明する例題が紹介されていた。&lt;&#x2F;p&gt;
+&lt;p&gt;コンパイルの正しさの論証に関して、自身は証明の式の適用を順に追っていくのがやっとだったが、数式（ソース言語）・コード・スタックの関係性を把握することができた。&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;17zhang-konpairanosuan-chu&quot;&gt;17章 コンパイラーの算出&lt;&#x2F;h1&gt;
+&lt;p&gt;本章では「ソース言語」を「低レベルコード」と「実行する仮想マシン」の2つに変換する流れが解説されている。ここが正に15章の「データと制御の分離」という表現が適用できる箇所だった。&lt;&#x2F;p&gt;
+&lt;p&gt;16章の論証での数式に続いて&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;スタックの型化&lt;&#x2F;li&gt;
+&lt;li&gt;スタックのやり取りを継続渡しへと変換&lt;&#x2F;li&gt;
+&lt;li&gt;コンビネーターとコード型の定義による継続の脱高階関数&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;といった手順で算出が行われていく。&lt;&#x2F;p&gt;
+&lt;p&gt;これまで簡単なインタプリタの実装コード等は読んだことがあったが、より理論的に？コンパイラについて理解を深めることができた&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;guan-shu-xing-puroguraminguhadi-reiyanodezainpatanwochou-xiang-hua-siteiru&quot;&gt;関数型プログラミングは低レイヤのデザインパターンを抽象化している？&lt;&#x2F;h1&gt;
+&lt;p&gt;17章まで読んで頭に浮かんだのが上記の問い。本書で解説されたような低レイヤに限らないとは思うが「データと制御の分離」を行うデザインパターンという新たな理解を得た。&lt;&#x2F;p&gt;
+&lt;p&gt;普段触っているExtensible Effectを用いたatnos-effライブラリでも式として呼び出すコマンドの定義とインタプリタ実行が分離されている。技術的な関心事を独自エフェクトとして抽象化することで比較的簡単な記述で隠蔽された複雑な実装を利用することができる。&lt;&#x2F;p&gt;
+&lt;p&gt;趣味として独自エフェクトを作成する作業はとても楽しかったが、新しいプログラミング言語を作る感覚に近かったのかもしれない。&lt;&#x2F;p&gt;
+&lt;p&gt;思わぬアハ体験をしたのでついブログにまとめた。低レイヤの知識含めまだまだなので精進していきたい。&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="ja">
+        <title>Howの知識に固執しないこと</title>
+        <published>2022-04-10T00:00:00+00:00</published>
+        <updated>2022-04-10T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://boykush.github.io/diaries/not-obsessed-to-knowledge/" type="text/html"/>
+        <id>https://boykush.github.io/diaries/not-obsessed-to-knowledge/</id>
+        
+        <content type="html">&lt;h1 id=&quot;hazimeni&quot;&gt;はじめに&lt;&#x2F;h1&gt;
+&lt;p&gt;社会人生活3年目に突入し現職にも慣れてきたことで、チームのフィーチャー開発でバックエンドエンジニアとしての意見を出し、開発方針に対して判断・責任を持つことが増えてきた。&lt;&#x2F;p&gt;
+&lt;p&gt;その中でソフトウェア設計に関する議論で意見をうまく伝えられない機会が何度かあり、スランプのような状態に陥っているので自分の気持ちを整理すべく言語化してみた。&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;ke-ti-nisi-tutakitukake&quot;&gt;課題に思ったきっかけ&lt;&#x2F;h1&gt;
+&lt;p&gt;特定の領域の知識がある程度成熟してくると、いわゆる「チョットわかる」状態になってくる。自分の場合はDDD（ソフトウェア設計）に関する領域がこれにあたる。&lt;&#x2F;p&gt;
+&lt;p&gt;DDDの目的は「ビジネスドメインをシステムに反映させ、ユーザーのメンタルモデルに寄り添った使いやすいシステムを構築すること」といったように自分は捉えている。（あくまで自分なりの理解を言語化したもの&lt;&#x2F;p&gt;
+&lt;p&gt;ある日デザイナー・PdMの方とデザイン初稿を元にしてデザイン要件についての議論をする際に、DDDの境界づけられたコンテキスト（戦略的設計）の考え方が役に立つと思い説明をしたが、自分が話す時間が長くなり議論を長引かせてしまうことがあった。&lt;&#x2F;p&gt;
+&lt;p&gt;その後も議論を続けていくと、自分がDDDの用語を説明せずとも似たような考え方に基づいた検討は既にされており、お互いの目的に対してギャップはなかった。&lt;&#x2F;p&gt;
+&lt;p&gt;まずやるべきだったのは目的と現状のデザインになった理由を共有することで、DDDの用語を説明することではなかったと反省した。&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;mu-de-toshou-duan-wosetutonikao-enai&quot;&gt;目的と手段をセットに考えない&lt;&#x2F;h1&gt;
+&lt;p&gt;この話自体、最初に目的を共有するのは当たり前、に尽きるかもしれない。ただHowの知識に固執してしまうと思考がHowに寄ってしまいやすくなる気がする、ので思考が寄らないような心がけから始めたい。&lt;&#x2F;p&gt;
+&lt;p&gt;DDDの境界づけられたコンテキストはあくまで手段でしかない。DDDの目的に対応する考えは職種関係なく持っているかもしれないが、目的と手段をセットにして考えてはいけない。&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;zhi-shi-dakedenakushou-wodong-kasu&quot;&gt;知識だけでなく手を動かす&lt;&#x2F;h1&gt;
+&lt;p&gt;関連して最近よく考えるのは知識はあくまで知識でしかないということ。「知識が役に立つ」と考えるのであれば手を動かして何かしらのアウトプットを出すことでわかりやすく伝えたい。&lt;&#x2F;p&gt;
+&lt;p&gt;手を動かすことで考えが明確になり、より説得力のある意見を出せることもあるし、要望にフィットせず意見を改めることもある。&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;matome&quot;&gt;まとめ&lt;&#x2F;h1&gt;
+&lt;p&gt;以上の内容から、「How」の「知識」に固執しないこと。を大事にしたい。&lt;&#x2F;p&gt;
+&lt;p&gt;色々書いたが、プロダクト開発においてどんな考え方に基づいてアウトプットを行うか、職種を超えた共通言語があったほうがコミュニケーションが円滑になるので共通言語は欲しい。&lt;&#x2F;p&gt;
+&lt;p&gt;とはいえ、DDDはあくまで開発者視点で成熟してきた手段なので、何から何まで他の職種の人に理解してもらうのはやりたくないなあ。などと考えていた。&lt;&#x2F;p&gt;
+&lt;p&gt;今日はここまで。&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="ja">
+        <title>2021年の振り返り（技術寄り）</title>
+        <published>2021-12-25T00:00:00+00:00</published>
+        <updated>2021-12-25T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://boykush.github.io/diaries/retrospective-2021/" type="text/html"/>
+        <id>https://boykush.github.io/diaries/retrospective-2021/</id>
+        
+        <content type="html">&lt;h1 id=&quot;hazimeni&quot;&gt;はじめに&lt;&#x2F;h1&gt;
+&lt;p&gt;2022年になり、社会人2年目も終盤に差し掛かるタイミングでこの文章を書いている。&lt;&#x2F;p&gt;
+&lt;p&gt;今回はあくまで個人の視点での振り返りをまとめる。&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;cheng-chang-dekitakoto&quot;&gt;成長できたこと&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;dddagilewen-mo-noyuan-ze-nijin-izhi-shi&quot;&gt;DDD・Agile文脈の原則に近い知識&lt;&#x2F;h2&gt;
+&lt;p&gt;今年はパターン寄りの知識よりも、原則に近い部分を学ぶことで日々の業務のベースとなる考え方を身につけることが多かった。&lt;&#x2F;p&gt;
+&lt;p&gt;DDDでいうところの戦略的設計に近い部分にあたる。&lt;&#x2F;p&gt;
+&lt;p&gt;具体的にはEvans本の後半、OOCP本、XP本ｍAgile Testing Condensed等を読んでいた。&lt;&#x2F;p&gt;
+&lt;p&gt;この手の原則を身に着けておくと、自分のアウトプットに理由が持てるので何かと業務・コミュニケーションが円滑に進む気がする。&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;tddnoshi-jian-wohan-metashi-zhuang-li&quot;&gt;TDDの実践を含めた実装力&lt;&#x2F;h2&gt;
+&lt;p&gt;以前もTDDはなにをするかは理解していたけど、厳密なTDDの実践まで至ったことがなかった。&lt;&#x2F;p&gt;
+&lt;p&gt;しかし2021年は厳密なTDDの実践も経験し、その上で自分なりの実装スタンスを身につけることができた。&lt;&#x2F;p&gt;
+&lt;p&gt;実装スタンスを言語化しろと言われたら難しいけれど、ちゃんとテストしておきたい箇所（主にドメインロジック）から順に手を付けて、
+優先順にコミットを重ねていくイメージ（例としてユースケースにおける主・副シナリオごとに1コミットみたいな粒度が好き&lt;&#x2F;p&gt;
+&lt;p&gt;テスタブルなコードを書いていきたい&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;qaniguan-suruzhi-shi-shi-jian&quot;&gt;QAに関する知識・実践&lt;&#x2F;h2&gt;
+&lt;p&gt;QAに関する知識がほとんどない状態でフィーチャー開発のQAまでを一貫して行う立場になったのでゼロから入門した。&lt;&#x2F;p&gt;
+&lt;p&gt;QAにおける各手法パターン・原則を学び、e2eテストの追加・メンテナンス等を行った。&lt;&#x2F;p&gt;
+&lt;p&gt;受け入れテストまで含めてテストファーストに行っていくような視点が増えるのでとても有意義な経験をした。&lt;&#x2F;p&gt;
+&lt;p&gt;立場に関係なく、「品質はみんなで守ろう」精神でやっていけたらと思う。&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;zhang-hai-dui-ying-zhou-rinojing-yan&quot;&gt;障害対応周りの経験&lt;&#x2F;h2&gt;
+&lt;p&gt;障害対応に関わることが何度かあり、その都度濃い経験をした。&lt;&#x2F;p&gt;
+&lt;p&gt;「監視入門」にも障害対応に関係するようなことが書いてあり、学びが深かった。&lt;&#x2F;p&gt;
+&lt;p&gt;システムの信頼性に関して、先人の知恵を身に着けていきたいと思う経験だった&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;sonota-enziniaringuquan-ban&quot;&gt;その他エンジニアリング全般&lt;&#x2F;h2&gt;
+&lt;p&gt;2021年中頃に読んだ「エンジニアリング組織論への入門」に書かれている内容がどれも興味深く、「エンジニアリング」という言葉に思いを馳せていた。&lt;&#x2F;p&gt;
+&lt;p&gt;不確実性を潰すためには様々な視点からのアプローチが可能で、学ばなきゃいけないことが本当に多いなと。&lt;&#x2F;p&gt;
+&lt;p&gt;個人のキャリアとして本に書かれている内容をさらに意識するのはもう少しあとのフェーズになると思うが、自分が最終的にやりたいことを今からでも描いていかねばと感じた。&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;jian-tukatutake-ti&quot;&gt;見つかった課題&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;shi-yang-she-ji-wojue-mekiruli&quot;&gt;仕様・設計を決めきる力&lt;&#x2F;h2&gt;
+&lt;p&gt;昔から優柔不断な性格である自覚はあったが、フィーチャー開発を設計段階から責任を持って遂行する立場を経験したことで、決めきる力の弱さを痛感した。&lt;&#x2F;p&gt;
+&lt;p&gt;「設計段階に時間をかけずにミニマムに前に進めることが大事」のような考え方もあるが、影響範囲が多い機能だとその後の展望も自分の中に持っておくのが大事で、
+スコープを削って後に回した機能を決める・やりきるタイミングは必ず来る。&lt;&#x2F;p&gt;
+&lt;p&gt;日々の仕様・設計に関する業務を重く捉えすぎるのも良くないと思うが、「自分がこのシステムを作っていくんだ！」という意志を持った経験だった。&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;detabesunetutowakudeng-nodi-reiyaji-rinozhi-shi&quot;&gt;データベース・ネットワーク等の低レイヤ寄りの知識&lt;&#x2F;h2&gt;
+&lt;p&gt;エンジニアとして生きていく以上つきまとう課題だとは思うが、障害対応等をしていると自分の実力不足が明確に現れることが多い。&lt;&#x2F;p&gt;
+&lt;p&gt;デッドロックが発生したときに、内部でどのような事象が発生していてどう改善すれば解消できるのか。&lt;&#x2F;p&gt;
+&lt;p&gt;みたいな知識・経験がまだまだ足りず手を動かしながら学びを深める必要性を感じた。&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;kuraudohuan-jing-woshou-wodong-kasitegou-zhu-surujing-yan&quot;&gt;クラウド環境を手を動かして構築する経験&lt;&#x2F;h2&gt;
+&lt;p&gt;IDDD本・データ指向アプリケーションデザイン・マイクロサービスパターン等を読んでいると、インプットしている内容の割に自分がゼロから構築できるモノが少ないな〜と感じた。（分散システムやドメインイベントの扱い等&lt;&#x2F;p&gt;
+&lt;p&gt;幸い日々の業務でk8sやkinesis等には触れているので、参考にしつつゼロから構築する経験をしたい。&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;2022nian-nobao-fu&quot;&gt;2022年の抱負&lt;&#x2F;h1&gt;
+&lt;p&gt;課題もやりたいこともたくさんあるので、2022年に具体的に何をするかは整理途中。&lt;&#x2F;p&gt;
+&lt;p&gt;ざっくり考えている抱負としては、&lt;&#x2F;p&gt;
+&lt;p&gt;「個を出すこと」&lt;&#x2F;p&gt;
+&lt;p&gt;2022年は20代後半に入るので、自分の個性を確立させていきたいな〜、と。
+個性を出して、チーム・会社にとって自分がどういった強みを発揮できるかを言語化していきたい。&lt;&#x2F;p&gt;
+&lt;p&gt;真面目な話ばかりだったけど、まずは楽しく！
+2022年もやっていき。&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>
